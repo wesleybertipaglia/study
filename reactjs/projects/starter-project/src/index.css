@@ -1,0 +1,101 @@
+:root {
+    /* colors */
+    --black: #000;
+    --accent-black: #161616;
+    --white: #fff;
+    --accent-white: #f6f6f6;
+    
+    /* animation */
+    --smooth: all .7s cubic-bezier(.7, 0, .3, 1);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #fafafa;
+  }
+  
+  section {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  .sect-content {
+    width: 800px;
+    margin: auto;
+  }
+
+  .header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+.logo  {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    background-color: #0eaada;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo::after {
+    content: "🍰";
+    font-size: 0.75rem;
+}
+
+details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.receipies {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.receipies details {
+    background: #fafafa;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.3s;
+    cursor: pointer;
+    user-select: none;
+}
+
+.receipies details[open] summary {
+    margin-bottom: 1rem;
+}
+
+details summary {
+    list-style: none;
+}
+
+details summary::before {
+    content: "›";
+    font-size: 2rem;
+    transition: 0.3s;
+    transform: rotate(90deg);
+    margin-right: 1rem;
+}
+
+details[open] summary::before {
+    transform: rotate(-90deg);
+}
