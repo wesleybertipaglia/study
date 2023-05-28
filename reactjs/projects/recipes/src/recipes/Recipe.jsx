@@ -1,8 +1,7 @@
 class Recipe {
-    constructor(title, rating, reviews, ingredients, steps) {
+    constructor(title, feedback, ingredients, steps) {
       this.title = title
-      this.rating = rating
-      this.reviews = reviews
+      this.feedback = feedback
       this.ingredients = ingredients
       this.steps = steps
     }
