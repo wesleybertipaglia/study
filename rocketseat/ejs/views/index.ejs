@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("partials/head") %>
+
+    <body class="d-flex flex-column align-content-between justify-content-between" style="height: 100vh;">
+        <header>
+            <%- include("partials/nav") %>
+            <%- include("partials/hero") %>
+        </header>
+
+        <main class="flex-grow-1">
+            <div class="p-5">
+                <div class="container">
+                    <h2>Working with EJS</h2>
+
+                    <div class="d-flex flex-column gap-3">
+                        <h2>Advantages of EJS</h2>
+                        <% advantages.forEach(function(item) { %>
+                        <div class="card">
+                            <div class="card-body">
+                                <h3><%= item.title %></h3>
+                                <p><%= item.text %></p>
+                            </div>
+                        </div>    
+                        <% }) %>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <%- include("partials/footer") %>
+    </body>
+</html>

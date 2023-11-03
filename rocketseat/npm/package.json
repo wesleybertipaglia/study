@@ -1,0 +1,24 @@
+{
+  "name": "firststeps",
+  "version": "1.0.0",
+  "description": "First steps in npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "",
+    "test": "Test: ok!"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Wesley",
+  "license": "MIT",
+  "devDependencies": {
+    "cfonts": "^3.1.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "moment": "^2.29.4"
+  }
+}
