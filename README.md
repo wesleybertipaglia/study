@@ -6,4 +6,4 @@ Please note that I do not accept contributions to this repository. It's intended
 
 Feel free to explore the content, learn from it, and adapt it to your needs. Happy learning!
 
-<img src="https://media.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif" alt="Studying" width="100%">
+<img src='https://media.giphy.com/media/atcqQ5PuX41J6/giphy.gif' width='100%'>
