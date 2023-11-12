@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - Your online book shelf</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="d-flex align-items-center bg-light" id="top">
+        <nav class="container navbar navbar-expand-lg navbar-light w-100 d-flex justify-content-between">
+            <div class="w-100 d-flex justify-content-between">
+                <a class="navbar-brand" href="./">📚 Books</a>
+                <div class="text-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end w-100" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./#best-sellers">Best Sellers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./books">All books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/about.html">About Us</a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </nav>
+    </header>
+
+    <section class="container my-4">
+        <h2>Featured Books</h2>
+        <div id="bookCarousel" class="carousel slide" data-ride="carousel" style="overflow: hidden;">
+            <div>
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-1"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Quantum Adventures of Sir Fluffington</h5>
+                                    <p class="card-text">Professor Whiskerbottom</p>
+                                    <p class="card-text">Fantasy, Adventure, Quantum Mechanics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-2"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Galactic Gourmet's Guide to Interstellar Cuisine</h5>
+                                    <p class="card-text">Chef Stardust</p>
+                                    <p class="card-text">Science Fiction, Culinary, Humo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-3"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Invisible Umbrellas and Other Everyday Marvels</h5>
+                                    <p class="card-text">Dr. Invisibella Marvelous</p>
+                                    <p class="card-text">Fantasy, Science, Wonder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-4"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Songs of the Singing Sandwich</h5>
+                                    <p class="card-text">Melody Munchkin</p>
+                                    <p class="card-text">Children's, Musical, Imagination</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-5"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Enchanted Encyclopedia of Unusual Socks</h5>
+                                    <p class="card-text">Socktopus the Sock Wizard</p>
+                                    <p class="card-text">Fantasy, Fashion, Footwear</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-6"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Astronomical Antics of Astro the Astrologer</h5>
+                                    <p class="card-text">Astro the Astrologer</p>
+                                    <p class="card-text">Humor, Astrology, Space</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-10"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Whimsical Wonders of Waffle Weaving</h5>
+                                    <p class="card-text">Waffle Wizard Wanda</p>
+                                    <p class="card-text">Fantasy, Cooking, Crafts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-1"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Peculiar Puddle Jumper's Almanac</h5>
+                                    <p class="card-text">Penny Puddlejumper</p>
+                                    <p class="card-text">Adventure, Weather, Humor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-3"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Fantastic Flapjacks and Where to Find Them</h5>
+                                    <p class="card-text">Flora Flapjackfinder</p>
+                                    <p class="card-text">Cookbook, Fantasy, Food</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4">
+        <h2>Categories</h2>
+        <div class="row">
+            <div class="col-12 col-md-3 mb-3 text-center">
+                <div class="card p-3">
+                    <div class="bg-light border m-auto rounded-circle d-flex align-items-center justify-content-center" style="height: 4rem !important; width: 4rem !important;">
+                        <h3>🧚</h3>
+                    </div>
+                    <div>
+                        <h3 class="m-0">Fantasy</h3>
+                        <a href="./books/#fantasy">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3 text-center">
+                <div class="card p-3">
+                    <div class="bg-light border m-auto rounded-circle d-flex align-items-center justify-content-center" style="height: 4rem !important; width: 4rem !important;">
+                        <h3>👽</h3>
+                    </div>
+                    <div>
+                        <h3 class="m-0">Fiction</h3>
+                        <a href="./books/#fiction">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3 text-center">
+                <div class="card p-3">
+                    <div class="bg-light border m-auto rounded-circle d-flex align-items-center justify-content-center" style="height: 4rem !important; width: 4rem !important;">
+                        <h3>🕵️‍♂️</h3>
+                    </div>
+                    <div>
+                        <h3 class="m-0">Mystery</h3>
+                        <a href="./books/#mystery">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mb-3 text-center">
+                <div class="card p-3">
+                    <div class="bg-light border m-auto rounded-circle d-flex align-items-center justify-content-center" style="height: 4rem !important; width: 4rem !important;">
+                        <h3>💓</h3>
+                    </div>
+                    <div>
+                        <h3 class="m-0">Romance</h3>
+                        <a href="./books/#romance">View</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-4">
+        <h2>More Books</h2>
+        <div id="bookCarousel" class="carousel slide" data-ride="carousel" style="overflow: hidden;">
+            <div>
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-3"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Quantum Adventures of Sir Fluffington</h5>
+                                    <p class="card-text">Professor Whiskerbottom</p>
+                                    <p class="card-text">Fantasy, Adventure, Quantum Mechanics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-4"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Galactic Gourmet's Guide to Interstellar Cuisine</h5>
+                                    <p class="card-text">Chef Stardust</p>
+                                    <p class="card-text">Science Fiction, Culinary, Humo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-5"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Invisible Umbrellas and Other Everyday Marvels</h5>
+                                    <p class="card-text">Dr. Invisibella Marvelous</p>
+                                    <p class="card-text">Fantasy, Science, Wonder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-6"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Quantum Adventures of Sir Fluffington</h5>
+                                    <p class="card-text">Professor Whiskerbottom</p>
+                                    <p class="card-text">Fantasy, Adventure, Quantum Mechanics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-7"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Galactic Gourmet's Guide to Interstellar Cuisine</h5>
+                                    <p class="card-text">Chef Stardust</p>
+                                    <p class="card-text">Science Fiction, Culinary, Humo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-8"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Invisible Umbrellas and Other Everyday Marvels</h5>
+                                    <p class="card-text">Dr. Invisibella Marvelous</p>
+                                    <p class="card-text">Fantasy, Science, Wonder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-4"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Quantum Adventures of Sir Fluffington</h5>
+                                    <p class="card-text">Professor Whiskerbottom</p>
+                                    <p class="card-text">Fantasy, Adventure, Quantum Mechanics</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-9"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">The Galactic Gourmet's Guide to Interstellar Cuisine</h5>
+                                    <p class="card-text">Chef Stardust</p>
+                                    <p class="card-text">Science Fiction, Culinary, Humo</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-3">
+                            <div class="card">
+                                <div class="book-cover bg-10"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Invisible Umbrellas and Other Everyday Marvels</h5>
+                                    <p class="card-text">Dr. Invisibella Marvelous</p>
+                                    <p class="card-text">Fantasy, Science, Wonder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sitemap</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./">Home</a></li>
+                        <li><a href="./pages/about.html">About Us</a></li>
+                        <li><a href="./books/">Books</a></li>
+                        <li><a href="./pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Social Links</h5>
+                    <div class="social-links d-flex flex-column">
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">Youtube</a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-right">
+                    <a href="#top" class="btn btn-primary">To Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap & jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
