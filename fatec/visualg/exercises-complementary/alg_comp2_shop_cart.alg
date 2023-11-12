@@ -1,7 +1,7 @@
 Algoritmo "Shop Cart"
 // Disciplina  :  [Informática e Negócios -  Lógica de Programação] 
 // Professor   : Francisco Antonio de Almeida  ( Xyko Almeida) 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : Carrinho de Compras
 // Autor(a)    : Wesley Bertipaglia
 // Data atual  : 29/11/2021
 Var
