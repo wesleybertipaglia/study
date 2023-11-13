@@ -11,22 +11,43 @@ void criarPessoa(int tipo) {
             scanf("%s", estudante.pessoa.nome);
             printf("Informe a idade do estudante: ");
             scanf("%d", &estudante.pessoa.idade);
-            printf("Informe o gênero do estudante (M/F): ");
+            printf("Informe o genero do estudante (M/F): ");
             scanf(" %c", &estudante.pessoa.genero);
-            printf("Informe a matrícula do estudante: ");
+            printf("Informe a matricula do estudante: ");
             scanf("%d", &estudante.matricula);
-            printf("Informe a média de notas do estudante: ");
+            printf("Informe a media de notas do estudante: ");
             scanf("%f", &estudante.mediaNotas);
 
             printf("\nDetalhes do Estudante:\n");
             printf("Nome: %s\n", estudante.pessoa.nome);
             printf("Idade: %d\n", estudante.pessoa.idade);
-            printf("Gênero: %c\n", estudante.pessoa.genero);
-            printf("Matrícula: %d\n", estudante.matricula);
-            printf("Média de Notas: %.2f\n", estudante.mediaNotas);
+            printf("Genero: %c\n", estudante.pessoa.genero);
+            printf("Matricula: %d\n", estudante.matricula);
+            printf("Media de Notas: %.2f\n", estudante.mediaNotas);
             break;
         }
-        // Adicione os casos para outros tipos (Professor, Cliente, Funcionario) conforme necessário...
+        case 2: {
+            Professor professor;
+            printf("Informe o nome do professor: ");
+            scanf("%s", professor.pessoa.nome);
+            printf("Informe a idade do professor: ");
+            scanf("%d", &professor.pessoa.idade);
+            printf("Informe o genero do professor (M/F): ");
+            scanf(" %c", &professor.pessoa.genero);
+            printf("Informe o codigo do professor: ");
+            scanf("%d", &professor.codigoProfessor);
+            printf("Informe a diciplina do professor: ");
+            scanf("%s", professor.disciplina);
+
+            printf("\nDetalhes do Professor:\n");
+            printf("Nome: %s\n", professor.pessoa.nome);
+            printf("Idade: %d\n", professor.pessoa.idade);
+            printf("Genero: %c\n", professor.pessoa.genero);
+            printf("Codigo do Professor: %d\n", professor.codigoProfessor);
+            printf("Diciplina: %s\n", professor.disciplina);
+            break;
+        }
+        
         default:
             printf("Tipo de pessoa inválido.\n");
             break;
@@ -36,15 +57,12 @@ void criarPessoa(int tipo) {
 int main() {
     int tipoPessoa;
 
-    // Solicitar ao usuário o tipo de pessoa
     printf("Escolha o tipo de pessoa:\n");
     printf("1 - Estudante\n");
-    // Adicione as opções para outros tipos (Professor, Cliente, Funcionario) conforme necessário...
+    printf("2 - Professor\n");
 
-    printf("Digite o número correspondente ao tipo de pessoa desejado: ");
+    printf("Digite o numero correspondente ao tipo de pessoa desejado: ");
     scanf("%d", &tipoPessoa);
-
-    // Criar a pessoa com base no tipo selecionado
     criarPessoa(tipoPessoa);
 
     return 0;
