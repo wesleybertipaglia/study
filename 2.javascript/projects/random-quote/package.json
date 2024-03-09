@@ -1,0 +1,16 @@
+{
+  "name": "random-quotes-generator",
+  "version": "1.0.0",
+  "description": "A Simple random quotes generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quotes",
+    "random",
+    "generator"
+  ],
+  "author": "wesleybertipaglia",
+  "license": "MIT"
+}
