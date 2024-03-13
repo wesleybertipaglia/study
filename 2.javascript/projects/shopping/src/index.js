@@ -7,7 +7,6 @@ function init() {
     displayCartCounter();
 }
 
-
 function fetchStock() {
     fetch("./src/stock.json")
         .then(response => {
