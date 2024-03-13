@@ -12,6 +12,10 @@ function main() {
     const [firstColor, secondColor, thirdColor] = colors;
     const [red, , blue] = colors;
     const [redColor, ...restColors] = colors;
+
+    // strings
+    const meal = 'Chicken Tacos';
+    const [flavor, food] = meal.split(' ');
 }
 
 main();
