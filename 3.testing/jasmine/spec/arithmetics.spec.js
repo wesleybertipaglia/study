@@ -1,4 +1,4 @@
-const { sum, sub, mul, div, mol, exp } = require("../src/arithmetic.js")
+const { sum, sub, mul, div, mol, exp } = require("../src/js/Arithmetic.js")
 
 describe('Arithmetics operations', () => {
     it('should sum two numbers', () => {
