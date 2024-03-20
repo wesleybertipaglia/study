@@ -8,13 +8,13 @@
 *.dylib
 
 # Ignore build output directories
-/bin/
-/build/
-/dist/
+bin/
+build/
+dist/
 
 # Ignore package manager directories
 node_modules/
-/packages/
+packages/
 
 # Ignore log files
 *.log
