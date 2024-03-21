@@ -22,5 +22,4 @@ const exp = (a, b) => {
   return a ** b;
 };
 
-
 export { sum, sub, mul, div, mol, exp }
