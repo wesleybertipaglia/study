@@ -60,7 +60,6 @@ fieldset {
     padding: 0;
 }
 
-
 button,
 input,
 textarea {
@@ -86,12 +85,12 @@ button:hover {
     filter: opacity(0.9);
 }
 
-button[type="submit"] {
+button[type='submit'] {
     background: var(--primary);
     color: var(--light);
 }
 
-button[type="reset"] {
+button[type='reset'] {
     background: var(--dark);
     color: var(--light);
 }

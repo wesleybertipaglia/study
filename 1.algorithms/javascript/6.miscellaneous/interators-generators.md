@@ -11,13 +11,13 @@ done: A boolean indicating whether the iteration has completed.
 Here's a simple example of using an iterator to iterate over an array:
 
 ```js
-const array = [1, 2, 3];
-const iterator = array[Symbol.iterator]();
+const array = [1, 2, 3]
+const iterator = array[Symbol.iterator]()
 
-console.log(iterator.next()); // { value: 1, done: false }
-console.log(iterator.next()); // { value: 2, done: false }
-console.log(iterator.next()); // { value: 3, done: false }
-console.log(iterator.next()); // { value: undefined, done: true }
+console.log(iterator.next()) // { value: 1, done: false }
+console.log(iterator.next()) // { value: 2, done: false }
+console.log(iterator.next()) // { value: 3, done: false }
+console.log(iterator.next()) // { value: undefined, done: true }
 ```
 
 ## Generators
@@ -30,14 +30,14 @@ Here's an example of a generator function that generates a sequence of numbers:
 
 ```js
 function* generateSequence() {
-  let i = 0;
-  while (true) {
-    yield i++;
-  }
+    let i = 0
+    while (true) {
+        yield i++
+    }
 }
 
-const iterator = generateSequence();
-console.log(iterator.next()); // { value: 0, done: false }
-console.log(iterator.next()); // { value: 1, done: false }
-console.log(iterator.next()); // { value: 2, done: false }
+const iterator = generateSequence()
+console.log(iterator.next()) // { value: 0, done: false }
+console.log(iterator.next()) // { value: 1, done: false }
+console.log(iterator.next()) // { value: 2, done: false }
 ```

@@ -1,15 +1,15 @@
 {
-  "name": "clock-app",
-  "version": "1.0.0",
-  "description": "A Simple clock app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "clock",
-    "timer"
-  ],
-  "author": "wesleybertipaglia",
-  "license": "MIT"
+    "name": "clock-app",
+    "version": "1.0.0",
+    "description": "A Simple clock app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "clock",
+        "timer"
+    ],
+    "author": "wesleybertipaglia",
+    "license": "MIT"
 }

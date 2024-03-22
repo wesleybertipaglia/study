@@ -7,26 +7,26 @@ The pattern is used for searching and replacing characters in strings.
 The RegExp Object is a regular expression with added Properties and Methods.
 
 ```js
-const pattern = /hello/;
-const anotherPattern = new RegExp("hello");
+const pattern = /hello/
+const anotherPattern = new RegExp('hello')
 ```
 
 ## Properties
 
 ```js
-pattern.global; // Checks whether the "g" modifier is set
-pattern.ignoreCase; // Checks whether the "i" modifier is set
-pattern.lastIndex; // Specifies the index at which to start the next match
-pattern.multiline; // Checks whether the "m" modifier is set
-pattern.source; // Returns the text of the RegExp pattern
+pattern.global // Checks whether the "g" modifier is set
+pattern.ignoreCase // Checks whether the "i" modifier is set
+pattern.lastIndex // Specifies the index at which to start the next match
+pattern.multiline // Checks whether the "m" modifier is set
+pattern.source // Returns the text of the RegExp pattern
 ```
 
 ## Methods
 
 ```js
-exec(); // Tests for a match in a string
-test(); // Tests for a match in a string
-toString();
+exec() // Tests for a match in a string
+test() // Tests for a match in a string
+toString()
 ```
 
 ## Modifiers

@@ -1,193 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML - Built-in Form Validation</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <div class="form-header">
-        <p class="logo">📝</p>
-        <h1>Input Types</h1>
-      </div>
-      <form action="./" method="post">
-        <legend>Text</legend>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Built-in Form Validation</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="form-header">
+                <p class="logo">📝</p>
+                <h1>Input Types</h1>
+            </div>
+            <form action="./" method="post">
+                <legend>Text</legend>
 
-        <fieldset>
-          <label for="text">Text</label>
-          <input type="text" name="text" placeholder="some text" />
-        </fieldset>
+                <fieldset>
+                    <label for="text">Text</label>
+                    <input type="text" name="text" placeholder="some text" />
+                </fieldset>
 
-        <fieldset>
-          <label for="text">Text</label>
-          <textarea
-            name="textarea"
-            cols="30"
-            rows="10"
-            placeholder="Textarea"
-          ></textarea>
-        </fieldset>
+                <fieldset>
+                    <label for="text">Text</label>
+                    <textarea
+                        name="textarea"
+                        cols="30"
+                        rows="10"
+                        placeholder="Textarea"
+                    ></textarea>
+                </fieldset>
 
-        <fieldset>
-          <label for="search">search</label>
-          <input
-            type="search"
-            name="search"
-            placeholder="Search something..."
-          />
-        </fieldset>
+                <fieldset>
+                    <label for="search">search</label>
+                    <input
+                        type="search"
+                        name="search"
+                        placeholder="Search something..."
+                    />
+                </fieldset>
 
-        <fieldset>
-          <label for="password">Password</label>
-          <input type="password" name="password" placeholder="**********" />
-        </fieldset>
+                <fieldset>
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="**********"
+                    />
+                </fieldset>
 
-        <fieldset>
-          <label for="url">Url</label>
-          <input type="url" name="url" placeholder="https://website.com" />
-        </fieldset>
+                <fieldset>
+                    <label for="url">Url</label>
+                    <input
+                        type="url"
+                        name="url"
+                        placeholder="https://website.com"
+                    />
+                </fieldset>
 
-        <legend>Numbers</legend>
+                <legend>Numbers</legend>
 
-        <fieldset>
-          <label for="number">Number</label>
-          <input type="number" name="number" placeholder="10" />
-        </fieldset>
+                <fieldset>
+                    <label for="number">Number</label>
+                    <input type="number" name="number" placeholder="10" />
+                </fieldset>
 
-        <legend>Time</legend>
+                <legend>Time</legend>
 
-        <fieldset>
-          <label for="time">time</label>
-          <input type="time" name="time" />
-        </fieldset>
+                <fieldset>
+                    <label for="time">time</label>
+                    <input type="time" name="time" />
+                </fieldset>
 
-        <fieldset>
-          <label for="date">Date</label>
-          <input type="date" name="date" />
-        </fieldset>
+                <fieldset>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" />
+                </fieldset>
 
-        <fieldset>
-          <label for="datetime">Datetime</label>
-          <input type="datetime" name="datetime" placeholder="00/00/00:00:00" />
-        </fieldset>
+                <fieldset>
+                    <label for="datetime">Datetime</label>
+                    <input
+                        type="datetime"
+                        name="datetime"
+                        placeholder="00/00/00:00:00"
+                    />
+                </fieldset>
 
-        <fieldset>
-          <label for="local-datetime">Local Datetime</label>
-          <input type="datetime-local" name="local-datetime" />
-        </fieldset>
+                <fieldset>
+                    <label for="local-datetime">Local Datetime</label>
+                    <input type="datetime-local" name="local-datetime" />
+                </fieldset>
 
-        <fieldset>
-          <label for="week">week</label>
-          <input type="week" name="week" />
-        </fieldset>
+                <fieldset>
+                    <label for="week">week</label>
+                    <input type="week" name="week" />
+                </fieldset>
 
-        <fieldset>
-          <label for="month">month</label>
-          <input type="month" name="month" />
-        </fieldset>
+                <fieldset>
+                    <label for="month">month</label>
+                    <input type="month" name="month" />
+                </fieldset>
 
-        <legend>Selectors</legend>
+                <legend>Selectors</legend>
 
-        <fieldset class="flex-row">
-          <label for="input-radio">Radio</label>
-          <div>
-            <label for="value-1">value-1</label>
-            <input
-              type="radio"
-              name="input-radio"
-              id="value-1"
-              value="value-1"
-            />
-          </div>
-          <div>
-            <label for="value-2">value-2</label>
-            <input
-              type="radio"
-              name="input-radio"
-              id="value-2"
-              value="value-2"
-            />
-          </div>
-          <div>
-            <label for="value-3">value-3</label>
-            <input
-              type="radio"
-              name="input-radio"
-              id="value-3"
-              value="value-3"
-            />
-          </div>
-        </fieldset>
+                <fieldset class="flex-row">
+                    <label for="input-radio">Radio</label>
+                    <div>
+                        <label for="value-1">value-1</label>
+                        <input
+                            type="radio"
+                            name="input-radio"
+                            id="value-1"
+                            value="value-1"
+                        />
+                    </div>
+                    <div>
+                        <label for="value-2">value-2</label>
+                        <input
+                            type="radio"
+                            name="input-radio"
+                            id="value-2"
+                            value="value-2"
+                        />
+                    </div>
+                    <div>
+                        <label for="value-3">value-3</label>
+                        <input
+                            type="radio"
+                            name="input-radio"
+                            id="value-3"
+                            value="value-3"
+                        />
+                    </div>
+                </fieldset>
 
-        <fieldset class="flex-row">
-          <label for="input-checkbox">checkbox</label>
-          <div>
-            <label for="value-1">value-1</label>
-            <input
-              type="checkbox"
-              name="input-checkbox"
-              id="value-1"
-              value="value-1"
-            />
-          </div>
-          <div>
-            <label for="value-2">value-2</label>
-            <input
-              type="checkbox"
-              name="input-checkbox"
-              id="value-2"
-              value="value-2"
-            />
-          </div>
-          <div>
-            <label for="value-3">value-3</label>
-            <input
-              type="checkbox"
-              name="input-checkbox"
-              id="value-3"
-              value="value-3"
-            />
-          </div>
-        </fieldset>
+                <fieldset class="flex-row">
+                    <label for="input-checkbox">checkbox</label>
+                    <div>
+                        <label for="value-1">value-1</label>
+                        <input
+                            type="checkbox"
+                            name="input-checkbox"
+                            id="value-1"
+                            value="value-1"
+                        />
+                    </div>
+                    <div>
+                        <label for="value-2">value-2</label>
+                        <input
+                            type="checkbox"
+                            name="input-checkbox"
+                            id="value-2"
+                            value="value-2"
+                        />
+                    </div>
+                    <div>
+                        <label for="value-3">value-3</label>
+                        <input
+                            type="checkbox"
+                            name="input-checkbox"
+                            id="value-3"
+                            value="value-3"
+                        />
+                    </div>
+                </fieldset>
 
-        <legend>Pickers</legend>
+                <legend>Pickers</legend>
 
-        <fieldset>
-          <label for="color">color</label>
-          <input type="color" name="color" />
-        </fieldset>
+                <fieldset>
+                    <label for="color">color</label>
+                    <input type="color" name="color" />
+                </fieldset>
 
-        <fieldset>
-          <label for="file">file</label>
-          <input type="file" name="file" />
-        </fieldset>
+                <fieldset>
+                    <label for="file">file</label>
+                    <input type="file" name="file" />
+                </fieldset>
 
-        <fieldset>
-          <label for="range">range</label>
-          <input type="range" name="range" />
-        </fieldset>
+                <fieldset>
+                    <label for="range">range</label>
+                    <input type="range" name="range" />
+                </fieldset>
 
-        <legend>Contact</legend>
+                <legend>Contact</legend>
 
-        <fieldset>
-          <label for="email">E-mail</label>
-          <input type="email" name="email" placeholder="name@mail.com" />
-        </fieldset>
+                <fieldset>
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="name@mail.com"
+                    />
+                </fieldset>
 
-        <fieldset>
-          <label for="tel">tel</label>
-          <input type="tel" name="tel" />
-        </fieldset>
+                <fieldset>
+                    <label for="tel">tel</label>
+                    <input type="tel" name="tel" />
+                </fieldset>
 
-        <fieldset>
-          <button type="reset">Reset</button>
-          <button type="submit">Submit</button>
-        </fieldset>
+                <fieldset>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </fieldset>
 
-        <button type="menu"></button>
-      </form>
-    </main>
-  </body>
+                <button type="menu"></button>
+            </form>
+        </main>
+    </body>
 </html>

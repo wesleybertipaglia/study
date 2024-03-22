@@ -25,4 +25,4 @@ describe('Arithmetics', () => {
     test('exponent 2 ** 3 to equal 8', () => {
         expect(exp(2, 3)).toBe(8)
     })
-});
+})

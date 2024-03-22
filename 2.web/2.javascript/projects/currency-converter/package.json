@@ -1,16 +1,16 @@
 {
-  "name": "currency-converter",
-  "version": "1.0.0",
-  "description": "A Simple currency converter app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "currency",
-    "converter",
-    "conversor"
-  ],
-  "author": "wesleybertipaglia",
-  "license": "MIT"
+    "name": "currency-converter",
+    "version": "1.0.0",
+    "description": "A Simple currency converter app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "currency",
+        "converter",
+        "conversor"
+    ],
+    "author": "wesleybertipaglia",
+    "license": "MIT"
 }

@@ -1,15 +1,15 @@
 # Use Strict
 
-- The "use strict" directive was new in ECMAScript version 5.
-- It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
-- The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
-- With strict mode, you can not, for example, use undeclared variables.
+-   The "use strict" directive was new in ECMAScript version 5.
+-   It is not a statement, but a literal expression, ignored by earlier versions of JavaScript.
+-   The purpose of "use strict" is to indicate that the code should be executed in "strict mode".
+-   With strict mode, you can not, for example, use undeclared variables.
 
 ## Declaring Strict Mode
 
 ```js
-"use strict";
-x = 3.14; // This will cause an error because x is not declared
+'use strict'
+x = 3.14 // This will cause an error because x is not declared
 ```
 
 ## Why Strict Mode?

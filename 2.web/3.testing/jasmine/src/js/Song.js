@@ -1,8 +1,8 @@
 class Song {
-  persistFavoriteStatus(value) {
-    // something complicated
-    throw new Error('not yet implemented');
-  }
+    persistFavoriteStatus(value) {
+        // something complicated
+        throw new Error('not yet implemented')
+    }
 }
 
-module.exports = Song;
+module.exports = Song

@@ -1,5 +1,5 @@
 function randomInRange(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+    return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
-export default randomInRange;
+export default randomInRange

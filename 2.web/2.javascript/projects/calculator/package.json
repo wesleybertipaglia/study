@@ -1,15 +1,15 @@
 {
-  "name": "calculator",
-  "version": "1.0.0",
-  "description": "A Simple calculator app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "calculator",
-    "calc"
-  ],
-  "author": "wesleybertipaglia",
-  "license": "MIT"
+    "name": "calculator",
+    "version": "1.0.0",
+    "description": "A Simple calculator app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "calculator",
+        "calc"
+    ],
+    "author": "wesleybertipaglia",
+    "license": "MIT"
 }

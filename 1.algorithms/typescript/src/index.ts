@@ -1,4 +1,4 @@
-import fs from "fs";
-import { hi } from "./helper.js";
+import fs from 'fs'
+import { hi } from './helper.js'
 
-console.log(hi);
+console.log(hi)

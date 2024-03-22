@@ -1,5 +1,5 @@
 const square = (n) => {
-    return n * n;
-};
+    return n * n
+}
 
-export default square;
+export default square

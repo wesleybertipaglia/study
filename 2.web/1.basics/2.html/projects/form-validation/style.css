@@ -119,7 +119,7 @@ input:read-write:not(:placeholder-shown) {
     font-size: 0.8rem;
 }
 
-input:invalid:not(:focus):not(:placeholder-shown)~.error {
+input:invalid:not(:focus):not(:placeholder-shown) ~ .error {
     display: block;
 }
 

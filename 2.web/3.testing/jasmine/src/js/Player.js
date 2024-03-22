@@ -1,24 +1,24 @@
 class Player {
-  play(song) {
-    this.currentlyPlayingSong = song;
-    this.isPlaying = true;
-  }
-
-  pause() {
-    this.isPlaying = false;
-  }
-
-  resume() {
-    if (this.isPlaying) {
-      throw new Error('song is already playing');
+    play(song) {
+        this.currentlyPlayingSong = song
+        this.isPlaying = true
     }
 
-    this.isPlaying = true;
-  }
+    pause() {
+        this.isPlaying = false
+    }
 
-  makeFavorite() {
-    this.currentlyPlayingSong.persistFavoriteStatus(true);
-  }
+    resume() {
+        if (this.isPlaying) {
+            throw new Error('song is already playing')
+        }
+
+        this.isPlaying = true
+    }
+
+    makeFavorite() {
+        this.currentlyPlayingSong.persistFavoriteStatus(true)
+    }
 }
 
-module.exports = Player;
+module.exports = Player

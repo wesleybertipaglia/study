@@ -1,3 +1,3 @@
-const hi = "hi";
+const hi = 'hi'
 
-export { hi };
+export { hi }

@@ -9,13 +9,13 @@
 Example:
 
 ```js
-console.log("Start");
+console.log('Start')
 
 setTimeout(() => {
-  console.log("Timeout callback");
-}, 0);
+    console.log('Timeout callback')
+}, 0)
 
-console.log("End");
+console.log('End')
 ```
 
 In this example, 'Start' and 'End' will be logged first, as they are synchronous and go straight to the call stack. Then, even though the setTimeout is set to 0 milliseconds, it still goes to the event queue. The event loop will eventually pick it up and execute it, logging 'Timeout callback'.

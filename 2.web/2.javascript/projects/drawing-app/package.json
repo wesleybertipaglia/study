@@ -1,16 +1,16 @@
 {
-  "name": "drawing-app",
-  "version": "1.0.0",
-  "description": "A Simple drawing app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "drawing",
-    "draw",
-    "paint"
-  ],
-  "author": "wesleybertipaglia",
-  "license": "MIT"
+    "name": "drawing-app",
+    "version": "1.0.0",
+    "description": "A Simple drawing app",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "drawing",
+        "draw",
+        "paint"
+    ],
+    "author": "wesleybertipaglia",
+    "license": "MIT"
 }
