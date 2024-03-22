@@ -1,16 +1,16 @@
 {
-    "name": "todo-list",
-    "version": "1.0.0",
-    "description": "A Simple todo-list app",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "todo",
-        "list",
-        "notes"
-    ],
-    "author": "wesleybertipaglia",
-    "license": "MIT"
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "A Simple todo-list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "notes"
+  ],
+  "author": "wesleybertipaglia",
+  "license": "MIT"
 }

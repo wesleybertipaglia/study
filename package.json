@@ -1,18 +1,18 @@
 {
-    "name": "study",
-    "version": "1.0.0",
-    "description": "Welcome to my personal repository where I gather exercises, projects, and valuable knowledge. This repository is primarily for personal reference, and I'm glad to share it with anyone interested in my learning journey.",
-    "main": "index.js",
-    "scripts": {
-        "lint": "prettier --check .",
-        "format": "prettier --write .",
-        "prepare": "husky"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "husky": "^9.0.11",
-        "prettier": "^3.2.5"
-    }
+  "name": "study",
+  "version": "1.0.0",
+  "description": "Welcome to my personal repository where I gather exercises, projects, and valuable knowledge. This repository is primarily for personal reference, and I'm glad to share it with anyone interested in my learning journey.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  }
 }

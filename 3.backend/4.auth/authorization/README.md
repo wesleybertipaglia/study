@@ -12,15 +12,15 @@ Authorization often revolves around defining roles (e.g., admin, user, guest) an
 
 ## Authorization Models
 
--   **Role-Based Access Control (RBAC)**: Users are assigned roles, and permissions are assigned to roles. Users inherit permissions associated with their roles.
+- **Role-Based Access Control (RBAC)**: Users are assigned roles, and permissions are assigned to roles. Users inherit permissions associated with their roles.
 
--   **Attribute-Based Access Control (ABAC)**: Access decisions are based on attributes of the user, resource, and environment, allowing for more fine-grained control over access.
+- **Attribute-Based Access Control (ABAC)**: Access decisions are based on attributes of the user, resource, and environment, allowing for more fine-grained control over access.
 
--   **Rule-Based Access Control (RBAC)**: Access decisions are made based on predefined rules or policies that evaluate various conditions or attributes.
+- **Rule-Based Access Control (RBAC)**: Access decisions are made based on predefined rules or policies that evaluate various conditions or attributes.
 
--   **Mandatory Access Control (MAC)**: Access is determined by a central authority based on security labels assigned to subjects and objects.
+- **Mandatory Access Control (MAC)**: Access is determined by a central authority based on security labels assigned to subjects and objects.
 
--   **Policy-Based Access Control**: Policies define rules or conditions that determine whether access is granted or denied based on predefined criteria. Policies can be static or dynamic and are typically enforced by an access control mechanism.
+- **Policy-Based Access Control**: Policies define rules or conditions that determine whether access is granted or denied based on predefined criteria. Policies can be static or dynamic and are typically enforced by an access control mechanism.
 
 ## Implementation
 
@@ -30,18 +30,18 @@ Authorization rules and policies are defined and enforced at various levels, inc
 
 In practice, authorization is typically implemented at multiple layers within an application's architecture to enforce access control policies effectively. Here are common places where authorization can be implemented:
 
--   Routes
--   Business Logic Layer
--   Middleware
--   Endpoints or Controllers
--   Database Queries
+- Routes
+- Business Logic Layer
+- Middleware
+- Endpoints or Controllers
+- Database Queries
 
 ## Best Practices
 
--   **Principle of Least Privilege**: Grant users only the permissions necessary to perform their tasks, minimizing the potential impact of compromised accounts.
+- **Principle of Least Privilege**: Grant users only the permissions necessary to perform their tasks, minimizing the potential impact of compromised accounts.
 
--   **Regular Review and Audit**: Regularly review and update authorization policies and access controls to ensure they remain aligned with security requirements and organizational changes.
+- **Regular Review and Audit**: Regularly review and update authorization policies and access controls to ensure they remain aligned with security requirements and organizational changes.
 
--   **Secure by Default**: Default to denying access unless explicitly authorized. Ensure that sensitive resources are protected by strong authentication and authorization controls.
+- **Secure by Default**: Default to denying access unless explicitly authorized. Ensure that sensitive resources are protected by strong authentication and authorization controls.
 
--   **Defense in Depth**: Implement multiple layers of security controls to mitigate the risk of unauthorized access, including encryption, monitoring, and intrusion detection systems.
+- **Defense in Depth**: Implement multiple layers of security controls to mitigate the risk of unauthorized access, including encryption, monitoring, and intrusion detection systems.

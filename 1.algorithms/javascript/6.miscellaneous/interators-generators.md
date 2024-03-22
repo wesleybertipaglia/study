@@ -30,10 +30,10 @@ Here's an example of a generator function that generates a sequence of numbers:
 
 ```js
 function* generateSequence() {
-    let i = 0
-    while (true) {
-        yield i++
-    }
+  let i = 0
+  while (true) {
+    yield i++
+  }
 }
 
 const iterator = generateSequence()

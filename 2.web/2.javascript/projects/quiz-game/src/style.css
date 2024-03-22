@@ -1,83 +1,83 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    max-width: 400px;
-    margin: auto;
+  max-width: 400px;
+  margin: auto;
 }
 
 main {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 button {
-    cursor: pointer;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
 }
 
 button:hover {
-    filter: brightness(0.9);
+  filter: brightness(0.9);
 }
 
 #question {
-    width: 100%;
-    height: 100px;
-    border: solid 1px;
-    padding: 0.5rem;
-    margin-bottom: 2rem;
+  width: 100%;
+  height: 100px;
+  border: solid 1px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 #options {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .correct-option {
-    background-color: #2f7a5b;
-    color: #fafafa;
+  background-color: #2f7a5b;
+  color: #fafafa;
 }
 
 .wrong-option {
-    background-color: #973838;
-    color: #fafafa;
+  background-color: #973838;
+  color: #fafafa;
 }
 
 .buttons-box {
-    margin-top: 2rem;
-    display: flex;
-    gap: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
 
-    button {
-        width: 100%;
-    }
+  button {
+    width: 100%;
+  }
 }
 
 #previous-button {
-    background-color: #ffb950;
+  background-color: #ffb950;
 }
 
 #restart-button {
-    background-color: #f2f550;
+  background-color: #f2f550;
 }
 
 #next-button {
-    background-color: #58c2ff;
+  background-color: #58c2ff;
 }
 
 #finish-button {
-    background-color: #49fa93;
+  background-color: #49fa93;
 }
 
 #result {
-    padding: 1rem;
-    margin: 1rem 0;
-    background-color: #a5aeff;
-    border-radius: 0.25rem;
-    font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #a5aeff;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
 }

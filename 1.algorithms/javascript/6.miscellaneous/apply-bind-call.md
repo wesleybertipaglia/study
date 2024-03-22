@@ -11,7 +11,7 @@ const obj1 = { name: 'John' }
 const obj2 = { name: 'Jane' }
 
 function greet(message) {
-    console.log(message + ', ' + this.name)
+  console.log(message + ', ' + this.name)
 }
 
 greet.call(obj1, 'Hello') // Output: Hello, John
@@ -26,7 +26,7 @@ The apply() method is similar to call(), but it accepts arguments as an array.
 const obj = { name: 'John' }
 
 function greet(message1, message2) {
-    console.log(message1 + ', ' + this.name + ' ' + message2)
+  console.log(message1 + ', ' + this.name + ' ' + message2)
 }
 
 greet.apply(obj, ['Hello', 'How are you?']) // Output: Hello, John How are you?
@@ -40,7 +40,7 @@ The bind() method returns a new function with a specified this value and initial
 const obj = { name: 'John' }
 
 function greet(message) {
-    console.log(message + ', ' + this.name)
+  console.log(message + ', ' + this.name)
 }
 
 const boundGreet = greet.bind(obj)

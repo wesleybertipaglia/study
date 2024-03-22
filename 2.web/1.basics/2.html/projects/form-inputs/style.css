@@ -1,96 +1,96 @@
 :root {
-    --primary: #007bff;
-    --light: #f5f5f5;
-    --dark: #222;
-    --gray: #ccc;
+  --primary: #007bff;
+  --light: #f5f5f5;
+  --dark: #222;
+  --gray: #ccc;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: var(--light);
-    color: var(--black);
+  font-family: Arial, sans-serif;
+  background: var(--light);
+  color: var(--black);
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    max-width: 400px;
-    margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 400px;
+  margin: 4rem auto;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
 }
 
 .form-header {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
 }
 
 .logo {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 legend {
-    margin-top: 2rem;
-    padding-bottom: 0.5rem;
-    border-bottom: solid 1px var(--gray);
-    font-weight: 800;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: solid 1px var(--gray);
+  font-weight: 800;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    border: none;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: none;
+  padding: 0;
 }
 
 button,
 input,
 textarea {
-    border-radius: 0.2rem;
-    outline: none;
+  border-radius: 0.2rem;
+  outline: none;
 }
 
 input,
 textarea {
-    padding: 0.5rem;
-    border: 1px solid var(--gray);
+  padding: 0.5rem;
+  border: 1px solid var(--gray);
 }
 
 button {
-    padding: 0.75rem 0.5rem;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: filter 0.3s;
+  padding: 0.75rem 0.5rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: filter 0.3s;
 }
 
 button:hover {
-    filter: opacity(0.9);
+  filter: opacity(0.9);
 }
 
 button[type='submit'] {
-    background: var(--primary);
-    color: var(--light);
+  background: var(--primary);
+  color: var(--light);
 }
 
 button[type='reset'] {
-    background: var(--dark);
-    color: var(--light);
+  background: var(--dark);
+  color: var(--light);
 }

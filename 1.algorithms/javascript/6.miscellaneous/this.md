@@ -8,10 +8,10 @@ When a function is called as a method of an object, this refers to the object th
 
 ```js
 const obj = {
-    name: 'John',
-    greet: function () {
-        console.log('Hello, ' + this.name)
-    },
+  name: 'John',
+  greet: function () {
+    console.log('Hello, ' + this.name)
+  },
 }
 
 obj.greet() // Output: Hello, John
@@ -23,7 +23,7 @@ When a function is used as a constructor with the new keyword, this refers to th
 
 ```js
 function Person(name) {
-    this.name = name
+  this.name = name
 }
 
 const john = new Person('John')
@@ -40,7 +40,7 @@ In an event handler function, this usually refers to the element that triggered 
 
 ```js
 document.getElementById('btn').addEventListener('click', function () {
-    console.log(this.textContent) // Output: Click Me
+  console.log(this.textContent) // Output: Click Me
 })
 ```
 
@@ -50,7 +50,7 @@ You can explicitly bind this to a specific value using methods like bind(), call
 
 ```js
 function greet() {
-    console.log('Hello, ' + this.name)
+  console.log('Hello, ' + this.name)
 }
 
 const person = { name: 'John' }

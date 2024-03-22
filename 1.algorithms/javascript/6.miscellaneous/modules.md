@@ -8,7 +8,7 @@ This is the module format initially designed for server-side JavaScript in Node.
 
 ```js
 function add(a, b) {
-    return a + b
+  return a + b
 }
 
 // default
@@ -16,7 +16,7 @@ module.exports = add
 
 // multiples
 module.exports = {
-    add: add,
+  add: add,
 }
 ```
 
@@ -35,7 +35,7 @@ ECMAScript 6 introduced native support for modules in JavaScript. It uses import
 
 ```js
 export function add(a, b) {
-    return a + b
+  return a + b
 }
 ```
 

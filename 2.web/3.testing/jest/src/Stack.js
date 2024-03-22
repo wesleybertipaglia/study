@@ -1,19 +1,19 @@
 class Stack {
-    constructor() {
-        this.items = []
-    }
+  constructor() {
+    this.items = []
+  }
 
-    push(item) {
-        this.items.push(item)
-    }
+  push(item) {
+    this.items.push(item)
+  }
 
-    pop() {
-        return this.items.pop()
-    }
+  pop() {
+    return this.items.pop()
+  }
 
-    isEmpty() {
-        return this.items.length === 0
-    }
+  isEmpty() {
+    return this.items.length === 0
+  }
 }
 
 module.exports = Stack

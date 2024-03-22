@@ -1,91 +1,91 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>HTML - Built-in Form Validation</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <main>
-            <div class="form-header">
-                <p class="logo">📝</p>
-                <h1>Sign-up</h1>
-            </div>
-            <form action="./" method="post">
-                <fieldset>
-                    <label for="username">Username</label>
-                    <input
-                        type="text"
-                        id="username"
-                        name="username"
-                        required
-                        minlength="4"
-                        maxlength="12"
-                        placeholder="Your username"
-                    />
-                    <span class="error">Please enter a valid username</span>
-                </fieldset>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Built-in Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="form-header">
+        <p class="logo">📝</p>
+        <h1>Sign-up</h1>
+      </div>
+      <form action="./" method="post">
+        <fieldset>
+          <label for="username">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            minlength="4"
+            maxlength="12"
+            placeholder="Your username"
+          />
+          <span class="error">Please enter a valid username</span>
+        </fieldset>
 
-                <fieldset>
-                    <label for="age">Age</label>
-                    <input
-                        type="number"
-                        id="age"
-                        name="age"
-                        required
-                        min="18"
-                        max="100"
-                        placeholder="Your age"
-                    />
-                    <span class="error">Please enter a valid age</span>
-                </fieldset>
+        <fieldset>
+          <label for="age">Age</label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            required
+            min="18"
+            max="100"
+            placeholder="Your age"
+          />
+          <span class="error">Please enter a valid age</span>
+        </fieldset>
 
-                <fieldset>
-                    <label for="password">Password</label>
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        required
-                        minlength="8"
-                        maxlength="20"
-                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"
-                        placeholder="Yor password"
-                    />
-                    <span class="error">Please enter a valid password</span>
-                </fieldset>
+        <fieldset>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            minlength="8"
+            maxlength="20"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"
+            placeholder="Yor password"
+          />
+          <span class="error">Please enter a valid password</span>
+        </fieldset>
 
-                <fieldset>
-                    <label for="t1"
-                        >What's your favorite fruit?<span aria-label="required"
-                            >*</span
-                        ></label
-                    >
-                    <input
-                        type="text"
-                        id="t1"
-                        name="fruit"
-                        list="l1"
-                        required
-                        pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range"
-                        placeholder="Your favorite fruit"
-                    />
-                    <datalist id="l1">
-                        <option>Banana</option>
-                        <option>Cherry</option>
-                        <option>Apple</option>
-                        <option>Strawberry</option>
-                        <option>Lemon</option>
-                        <option>Orange</option>
-                    </datalist>
-                    <span class="error">Please enter a valid fruit</span>
-                </fieldset>
+        <fieldset>
+          <label for="t1"
+            >What's your favorite fruit?<span aria-label="required"
+              >*</span
+            ></label
+          >
+          <input
+            type="text"
+            id="t1"
+            name="fruit"
+            list="l1"
+            required
+            pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range"
+            placeholder="Your favorite fruit"
+          />
+          <datalist id="l1">
+            <option>Banana</option>
+            <option>Cherry</option>
+            <option>Apple</option>
+            <option>Strawberry</option>
+            <option>Lemon</option>
+            <option>Orange</option>
+          </datalist>
+          <span class="error">Please enter a valid fruit</span>
+        </fieldset>
 
-                <fieldset>
-                    <button type="submit">Submit</button>
-                </fieldset>
-            </form>
-        </main>
-    </body>
+        <fieldset>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
 </html>
