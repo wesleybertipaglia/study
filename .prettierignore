@@ -1,1 +1,7 @@
+# Git Files
+.gitignore
+.gitkeep
+
+# Modules and Dependencies
 node_modules/
+package-lock.json
