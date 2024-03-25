@@ -15,6 +15,7 @@ dist/
 # Ignore package manager directories
 node_modules/
 packages/
+packages-lock.json
 
 # Ignore log files
 *.log
