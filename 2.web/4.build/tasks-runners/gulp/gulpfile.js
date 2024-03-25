@@ -1,6 +1,7 @@
-function defaultTask(cb) {
-  // place code for your default task here
-  cb()
+const { src, dest } = require('gulp')
+
+function copyTask() {
+  return src('index.js').pipe(dest('dist/'))
 }
 
-exports.default = defaultTask
+exports.copy = copyTask

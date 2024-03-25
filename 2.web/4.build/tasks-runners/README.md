@@ -30,6 +30,8 @@ Task runners in JavaScript are tools used to automate repetitive tasks and strea
 
 - They are commonly used for tasks such as compiling code, optimizing assets, running tests, generating documentation, and deploying applications.
 
+- Common usage: minigying code, compiling sass, media optimization, etc.
+
 ## Popular JavaScript Task Runners
 
 - **Grunt**: One of the earliest task runners in the JavaScript ecosystem, Grunt uses configuration-based workflows and a wide range of plugins to automate tasks.
