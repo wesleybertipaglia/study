@@ -8,11 +8,17 @@
     "format": "prettier --write .",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,html}": [
+      "prettier --write"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "prettier": "^3.2.5"
   }
 }
