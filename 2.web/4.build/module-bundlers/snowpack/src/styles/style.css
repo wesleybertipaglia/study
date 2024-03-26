@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  padding: 1.5rem;
+}
+
+canvas {
+  width: 100%;
+  flex: 1;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: #111;
+  color: #fafafa;
+  font-weight: 600;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0c5f5f;
+}
