@@ -19,6 +19,11 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^9.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^5.0.0",
     "husky": "^9.0.11",
     "prettier": "^3.2.5"
   }
