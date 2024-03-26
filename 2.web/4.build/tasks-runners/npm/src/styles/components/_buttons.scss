@@ -1,0 +1,27 @@
+button:hover a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--blue) !important;
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.btn-primary:hover {
+  background: var(--blue-hover);
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary);
+  color: var(--white);
+  border: 1px solid transparent;
+}

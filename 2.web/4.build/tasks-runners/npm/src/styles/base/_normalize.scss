@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: 0.3s linear;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

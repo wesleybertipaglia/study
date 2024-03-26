@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 768px) {
+  .grid-container,
+  .grid-container-2,
+  .grid-container-3,
+  .grid-container-4 {
+    grid-template-columns: repeat(auto-fit, minmax(0, 100%));
+  }
+}

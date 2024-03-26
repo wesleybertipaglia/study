@@ -1,0 +1,33 @@
+#time-line {
+  position: relative;
+  gap: 4rem;
+}
+
+#time-line::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 2px;
+  background: var(--primary);
+}
+
+#time-line .row::after {
+  content: '';
+  position: absolute;
+  left: 49.5%;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--white-smoke);
+  border: 2px solid var(--primary);
+}
+
+#time-line .txt,
+#time-line img {
+  max-width: 580px;
+}
+
+#time-line .row {
+  min-height: 200px;
+}

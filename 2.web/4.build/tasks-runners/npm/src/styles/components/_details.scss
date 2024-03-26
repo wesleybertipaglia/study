@@ -1,0 +1,12 @@
+details summary:after {
+  content: '›';
+  font-size: 2rem;
+  transition: 0.3s;
+  transform: rotate(90deg);
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+details[open] summary:after {
+  transform: rotate(-90deg);
+}

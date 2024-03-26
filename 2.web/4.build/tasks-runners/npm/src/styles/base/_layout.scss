@@ -1,0 +1,22 @@
+@use '../layout/grid';
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--secondary);
+}
+
+main {
+  flex: 1;
+}
+
+.hero {
+  min-height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .onres-flex-wrap {
+    flex-wrap: wrap !important;
+  }
+}

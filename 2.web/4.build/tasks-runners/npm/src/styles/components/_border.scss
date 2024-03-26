@@ -1,0 +1,8 @@
+.hover-border {
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.hover-border:hover {
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+  color: var(--secundary);
+  cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.check-list li[value='true']::before {
+  content: '✔';
+  margin-right: 0.5rem;
+}
+
+.check-list li[value='false']::before {
+  content: '✖';
+  margin-right: 0.5rem;
+}
