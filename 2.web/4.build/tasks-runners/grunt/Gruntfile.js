@@ -8,15 +8,37 @@ module.exports = function (grunt) {
           '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
       },
       build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js',
+        src: 'src/scripts/*.js',
+        dest: 'dist/script.min.js',
+      },
+    },
+    sass: {
+      options: {
+        sourceMap: true,
+      },
+      dist: {
+        files: {
+          'dist/styles.css': 'src/styles/styles.scss',
+        },
+      },
+    },
+    imagemin: {
+      dynamic: {
+        files: [
+          {
+            expand: true,
+            cwd: 'src/images/',
+            src: ['**/*.{png,jpg,gif}'],
+            dest: 'dist/images/',
+          },
+        ],
       },
     },
   })
 
-  // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify')
+  grunt.loadNpmTasks('grunt-contrib-sass')
+  grunt.loadNpmTasks('grunt-contrib-imagemin')
 
-  // Default task(s).
-  grunt.registerTask('default', ['uglify'])
+  grunt.registerTask('default', ['uglify', 'sass', 'imagemin'])
 }

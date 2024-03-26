@@ -1,0 +1,72 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+// Header styles
+.header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+// Navigation styles
+.nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
+// Main content styles
+.main-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+// Footer styles
+.footer {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
